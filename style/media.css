@@ -61,7 +61,7 @@
 .wp-navi-slide .navi-slide-head {display: block;padding:0 10px;height: 40px;}
 .wp-navi-slide .wp-menu {background:#fff;}
 .wp-navi-slide .wp-menu .menu-item {display: inline-block;float:none; position: relative; z-index: 100;width:100%;padding-left:0px;text-align:left;border-bottom:1px solid #eee}
-.wp-navi-slide .wp-menu .menu-item .menu-switch-arrow{display: block;width: 38px;height: 38px;position: absolute;right: 6px;top: 1px;background: url("icons.png")/*tpa=http://miv.cumt.edu.cn/_upload/tpl/05/56/1366/template1366/css/img/icons.png*/ no-repeat 10px -116px;}
+.wp-navi-slide .wp-menu .menu-item .menu-switch-arrow{display: block;width: 38px;height: 38px;position: absolute;right: 6px;top: 1px;background: url("icons.png") no-repeat 10px -116px;}
 .wp-navi-slide .wp-menu .menu-item a.menu-link {display:block;padding: 0 20px;line-height: 40px;color: #343434;font-size: 14px; }
 .wp-navi-slide .wp-menu .menu-item a.menu-link.hover,
 .wp-navi-slide .wp-menu .menu-item.hover a.menu-link,
