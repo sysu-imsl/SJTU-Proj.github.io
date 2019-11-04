@@ -49,22 +49,27 @@ a {color:#3b3b3b; text-decoration:none; transition:all 0.4s ease-in-out; }
 a:hover { color:#095ab5; }
 /*页面尺寸*/
 .wrapper { width:100%; margin:0 auto;  }
-.wrapper .inner {width: 1145px;margin:0 auto;} /**页面全局宽度**/
+.wrapper .inner {width: 64.6%;margin:0 auto;} /**页面全局宽度**/
 /*headtop*/
 #headtop{background:;}
 #headtop .inner{}
 .headtop .top-left{float: left;}
 .headtop .top-right{float:right;}
 /*head开始*/
-/* #header {background: #18267e url("head_bg.jpg") no-repeat center top;height: 132px;} */
-#header {background: #197AC1;height: 132px;}
+#header {
+	background: #18267e url("../images/header.png") no-repeat center top;
+	height: 366px;
+	background-size:100%100%;
+}
+/* #header {background: #197AC1;height: 366px;} */
 
 #header .inner{}
 .header .sitelogo{float:left;margin-top: 25px;}
 .header .sitetitle {display:inline-block;margin-top: 28px;margin-left:10px;font-size:32px;font-weight:bold;color:#fff;} /**站点名称**/
 .header .head-left{float:left;display:inline-block;}
-.header .head-main{float:left;margin-top:10px;}
+.header .head-main{float:left;margin-top:25px;}
 .header .head-right{float:right;margin-top: 12px;width:200px;}
+
 /*rale样式*/
 .site-rale{}
 .site-rale ul{}
@@ -81,6 +86,7 @@ a:hover { color:#095ab5; }
 .site-lang ul li.links{float:left;}
 .site-lang ul li.links a{line-height: 35px;margin:0px 5px;font-size: 13px;color: #cad3d4;}
 .site-lang ul li.links a:hover{color:#fff;}
+
 /*默认主导航样式*/
 #nav{background: #004ea1;}
 #nav .inner{}
@@ -481,33 +487,9 @@ a:hover { color:#095ab5; }
 	display:block;height:auto;max-width:100%
 }
 
-/**
- * Markup free clearing.
- *
- * @see http://perishablepress.com/press/2009/12/06/new-clearfix-hack
- */
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
 #contentbg{
+	margin-top:270px;
 	background:#BFDFFF;
-}
-
-#show{
-	width:1200px;
-	height:300px;
-}
-
-#listshow{
-	visibility:hidden;
-	width:100%;
-	height:300px;
-	overflow:hidden;
 }
 
 #content{
@@ -517,77 +499,226 @@ a:hover { color:#095ab5; }
 }
 
 #mynav{
-	width:100%;
-	height:45px;
-	background:#4184BB;
+	width:64.6%;
+	height:64px;
+	background-color: rgba(151,0,3,0.55);
 	}
+	
 .mynav{
-	width:1200px;
-	height:45px;
+	width:100%;
+	height:64px;
 	}
+
 .mynavcontent{
-	width:1200px;
-	height:45px;
+	width:100%;
+	height:64px;
+	margin-top:25px;
 	}
-.mynavcontent ul{
+
+.mynavcontent table{
+	width:100%;
 	list-style:none;
+	text-align:center;
 	}
-.mynavcontent ul li{
+
+.mynavcontent table tr td{
 	float:left;
 	width:140px;
-	height:45px;
-	text-align:center;
-	color:#FFF;
-	line-height:45px;
-	font-size:16px;
+	height:64px;
+	line-height:64px;
 	position: relative;
+
 	z-index:200;
+	background: #6D0004;
+	border-radius: 13px;
+
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+
+	margin-right:15.5px;
 	}
-.mynavcontent ul li a{
+
+.mynavcontent table tr td:last-child{
+	margin-right:0px;
+	}
+
+.mynavcontent table tr td a{
 	width:140px;
-	height:45px;
-	color:#FFF;
+	height:64px;
+	color:#FFFFFF;
 	display:block;
 	letter-spacing:2px;
 	text-decoration:none;
 	}
-.mynavcontent ul li a:hover{
-	background:#336691;
-	color:#FFF;
+
+.mynavcontent table tr td a:hover{
+	color: #FF555F;
 	display: block;
 	}
 
-.mynavcontent ul li ul{
+.mynavcontent table tr td ul{
     display: none;
     position: absolute;
-    background-color: #4184BB;
-    padding: 0px;
-    border-radius: 0px 0px 4px 4px;
+	padding: 0px;
+	background-color: rgba(109,0,4,0.69);
+	border-radius: 13px 13px 13px 13px;
 	}
 
-.mynavcontent ul li:hover ul{
+.mynavcontent table tr td:hover ul{
     display: block;
 	}
 
-.mynavcontent ul li ul li{
+.mynavcontent table tr td ul li{
 	width:140px;
 	text-align:center;
-	color:#FFF;
+	background-color: rgba(109,0,4,0.0);
+	border-radius: 0px 0px 13px 13px;
 	}
 
-.mynavcontent ul li ul li a{
-	color: #fff;
-	 background-color:#4184BB;
+.mynavcontent table tr td ul li a{
+	color: #FFFFFF;
 	}
 
-.mynavcontent ul li ul li a:hover{	
-    color: #fff; background-color:#336691;
+.mynavcontent table tr td ul li a:hover{	
+    color: #FF555F;
 	}
 
-.mynavactive{
-	background:#336691;
-	}
+#show{
+	width:100%;
+	height:399px;
+	margin-top:15px;
+}
 
-.backline{
-	border-right:1px solid #639BC9;
-	}
+#listshow{
+	visibility:hidden;
+	width:100%;
+	height:399px;
+	overflow:hidden;
+	border-radius: 5px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.news-slider {
+	width:64.6%;
+	height:64px;
+    margin-bottom: 30px;
+	margin-top: 25px;
+	z-index:200;
+	border-radius: 5px;
+}
+
+.news-slider .owl-item {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeOut;
+}
+
+.news-slider .owl-item.active {
+    position: relative;
+    top: 0;
+    animation-name: zoomIn;
+    overflow: hidden;
+}
+
+.news-slider .item a:hover {
+    transform: scale(1);
+}
+
+.news-slider .item a img {
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+	transition: transform 0.6s ease-in-out;
+	width:100%;
+	height:100%;
+}
+
+.news-slider .item a:hover img {
+    transform: scale(1.02);
+}
+
+.news-slider .title {
+    width: 100%;
+    height: 100%;
+    background: url(../img/NewSliderBG.png);
+    background-size: cover;
+    color: #fff;
+    padding: 30px 30px 0 30px;
+}
+.news-slider .title2 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/sliderBG@2x.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 30px 18px 0 18px;
+}
+
+.news-slider .title h4 {
+    position: relative;
+    margin: 0;
+    line-height: 30px;
+    padding-top: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #fff;
+    font-weight: 900;
+    border-bottom: 1px dashed #fff;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 30);
+}
+
+.news-slider .title h4 p {
+    height: 90px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #fff !important;
+    text-align: center;
+}
+.news-slider .title h4 p span {
+    display: block;
+    text-align: center;
+}
+.news-slider .title .des {
+    width: 80%;
+    height: 50px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff !important;
+}
+
+.news-slider .owl-dots {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 33.33333%;
+    margin-top: 0 !important;
+}
+
+.news-slider .owl-dot span {
+    background-color: #fff !important;
+}
+
+.news-slider .owl-dot.active span:after,
+.news-slider .owl-dot:hover span:after {
+    border-color: #fff !important;
+}
+
+.item a img {
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+}
+
+.item a:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.item a:hover p {
+    color: #d0021b;
+}
