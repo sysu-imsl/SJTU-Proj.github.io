@@ -26,7 +26,7 @@ body,textarea,input,button,select,keygen,legend{ font:13px/1 arial,\5b8b\4f53; c
 .clear { width:100%; height:0; line-height:0; font-size:0; overflow:hidden; clear:both; display:block; _display:inline; }
 .clearfix:after{clear: both;content: ".";display: block;height:0;visibility: hidden;}
 .clearfix{ display: block; *zoom:1; }
-.icon{display:inline-block;width: 32px;height: 32px;vertical-align:middle;background:url("icon.png")/*tpa=http://miv.cumt.edu.cn/_upload/tpl/05/56/1366/template1366/images/icon.png*/ no-repeat;}
+.icon{display:inline-block;width: 32px;height: 32px;vertical-align:middle;background:url("icon.png") no-repeat;}
 /*css3扩展*/
 body:before {content: ""; position: fixed; top: -10px; left: 0; z-index: 110; width: 100%; height: 10px;
  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
@@ -47,8 +47,8 @@ p{line-height:1.75;}
 a {color:#3b3b3b; text-decoration:none; transition:all 0.4s ease-in-out; }
 a:hover { color:#095ab5; }
 /*页面尺寸*/
-.wrapper { width:100%; margin:0 auto;  }
-.wrapper .inner {width: 64.6%;margin:0 auto;} /**页面全局宽度**/
+.wrapper { width:100vw; margin:0 auto;  }
+.wrapper .inner {width: 64.6vw;margin:0 auto;} /**页面全局宽度**/
 /*headtop*/
 #headtop{background:;}
 #headtop .inner{}
@@ -57,16 +57,20 @@ a:hover { color:#095ab5; }
 /*head开始*/
 #header {
 	background: #18267e url("../images/header.png") no-repeat center top;
-	height: 366px;
+	height: 19.06vw;
 	background-size:100%100%;
 }
 /* #header {background: #197AC1;height: 366px;} */
 
 #header .inner{}
-.header .sitelogo{float:left;margin-top: 25px;}
+.header .sitelogo{
+	float:left;
+	height: 5.677vw;
+	margin-top: 1.31vw;
+}
 .header .sitetitle {display:inline-block;margin-top: 28px;margin-left:10px;font-size:32px;font-weight:bold;color:#fff;} /**站点名称**/
 .header .head-left{float:left;display:inline-block;}
-.header .head-main{float:left;margin-top:25px;}
+.header .head-main{float:left;margin-top:1.31vw;}
 .header .head-right{float:right;margin-top: 12px;width:200px;}
 
 /*rale样式*/
@@ -188,7 +192,7 @@ a:hover { color:#095ab5; }
 .post1 {
 	float:left;
 	width: 36%;
-	margin-bottom: 30px;
+	margin-bottom: 1.5625vw;
 }
 .post1 .tt {
 	float:left;
@@ -197,12 +201,12 @@ a:hover { color:#095ab5; }
 }
 .post1 .tt .icon{
 	float:left;
-	width:20px;
-	height:20px;
+	width:1.042vw;
+	height:1.042vw;
 	overflow: hidden;
 	letter-spacing: 0;
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 0.2604vw;
 }
 .post1 .tt .icon img{
 	width: 100%;
@@ -210,13 +214,13 @@ a:hover { color:#095ab5; }
 .post1 .tt .tit {
 	float:left;
 	width:auto;
-	margin-left: 8px;
-	margin-bottom: 5px;
+	margin-left: 0.4167vw;
+	margin-bottom: 0.2604vw;
 }
 .post1 .tt .tit .title {
-	font-size: 18px;
+	font-size: 0.9375vw;
 	font-weight:bold;
-	line-height: 20px;
+	line-height: 1.042vw;
 	color:#9D090D;
 	cursor:pointer;
 	letter-spacing: 0px;
@@ -225,10 +229,10 @@ a:hover { color:#095ab5; }
 .post1 .more_btn{
 	float:right;
 	width:auto;
-	margin-bottom: 5px;
+	margin-bottom: 0.2604vw;
 }
 .post1 .more_btn a{
-	font-size: 16px;
+	font-size: 0.8333vw;
 	color:#EA7477;
 }
 
@@ -236,21 +240,21 @@ a:hover { color:#095ab5; }
 .postNews {
 	float:left;
 	width: 30%;
-	margin: 0 2% 30px 2%;
+	margin: 0 2% 1.5625vw 2%;
 }
 .postNews .tt {
 	float:left;
 	width:100%;
-	border-bottom: 2px solid #9D090D;
+	border-bottom: 0.1043vw solid #9D090D;
 }
 .postNews .tt .icon{
 	float:left;
-	width:20px;
-	height:20px;
+	width:1.042vw;
+	height:1.042vw;
 	overflow: hidden;
 	letter-spacing: 0;
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 0.2604vw;
 }
 .postNews .tt .icon img{
 	width: 100%;
@@ -258,51 +262,51 @@ a:hover { color:#095ab5; }
 .postNews .tt .tit {
 	float:left;
 	width:auto;
-	margin-left: 8px;
-	margin-bottom: 5px;
+	margin-left: 0.4167vw;
+	margin-bottom: 0.2604vw;
 }
 .postNews .tt .tit .title {
-	font-size: 18px;
+	font-size: 1.1458vw;
 	font-weight:bold;
-	line-height: 20px;
+	line-height: 1.042vw;
 	color:#9D090D;
 	cursor:pointer;
 	letter-spacing: 0px;
 	text-align: left;
 }
 .postNews .more_btn{
-	float:right;
+	float:right;	
 	width:auto;
-	margin-bottom: 5px;
+	margin-bottom: 0.2604vw;
 }
 .postNews .more_btn a{
-	font-size: 16px;
+	font-size: 0.8333vw;
 	color:#EA7477;
 }
 .postNews ul{
-	margin-top: 30px;
-	margin-left: 15px;
+	margin-top: 1.5625vw;
+	margin-left: 0.78125vw;
 }
 
 /*通知公告*/
 .postNotice {
 	float:left;
 	width: 30%;
-	margin: 0 0 30px 0;
+	margin: 0 0 1.5625vw 0;
 }
 .postNotice .tt {
 	float:left;
 	width:100%;
-	border-bottom: 2px solid #9D090D;
+	border-bottom: 0.1042vw solid #9D090D;
 }
 .postNotice .tt .icon{
 	float:left;
-	width:20px;
-	height:20px;
+	width:1.042vw;
+	height:1.042vw;
 	overflow: hidden;
 	letter-spacing: 0;
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 0.2604vw;
 }
 .postNotice .tt .icon img{
 	width: 100%;
@@ -310,13 +314,13 @@ a:hover { color:#095ab5; }
 .postNotice .tt .tit {
 	float:left;
 	width:auto;
-	margin-left: 8px;
-	margin-bottom: 5px;
+	margin-left: 0.4167vw;
+	margin-bottom: 0.2604vw;
 }
 .postNotice .tt .tit .title {
-	font-size: 18px;
+	font-size: 1.1458vw;
 	font-weight:bold;
-	line-height: 20px;
+	line-height: 1.042vw;
 	color:#9D090D;
 	cursor:pointer;
 	letter-spacing: 0px;
@@ -325,10 +329,10 @@ a:hover { color:#095ab5; }
 .postNotice .more_btn{
 	float:right;
 	width:auto;
-	margin-bottom: 5px;
+	margin-bottom: 0.2604vw;
 }
 .postNotice .more_btn a{
-	font-size: 16px;
+	font-size: 0.8333vw;
 	color:#EA7477;
 }
 
@@ -421,11 +425,12 @@ a:hover { color:#095ab5; }
 	list-style-type: disc;
 }
 .news_list li.news {
-	line-height: 34px;
+	line-height: 1.771vw;
 	padding-left:0px;
 } /**标题图标**/
 .news_list li.news span.news_title { 
 	float:left; 
+	font-size: 0.8333vw;
 	font-family: PingFangSC-Regular;
 	color: #333333;
 	letter-spacing: 0;
@@ -437,6 +442,7 @@ a:hover { color:#095ab5; }
 .news_list li.news span.news_meta {
 	float:right;
 	margin-left:2px;
+	font-size: 0.7292vw;
 	color: #9C9C9C;
 }/*属性*/
 .news_list li.news .news_time,
@@ -449,19 +455,19 @@ a:hover { color:#095ab5; }
 	border:0px solid red;
 }
 .news_list li.news .news_text {
-	line-height:22px; 
+	line-height:1.146vw; 
 	color:#666;
 }/*默认简介*/
 .news_list li.news .news_bg {
 	position:absolute; 
 	left:0px;bottom:0px; 
-	right:0px; height:30px; 
+	right:0px; height:1.5625vw; 
 	background:#000; 
 	opacity:.7; 
 	filter:Alpha(opacity=70);
 }
 .news_list li.news p {
-	line-height:34px;
+	line-height:1.771vw;
 }
 /*日历新闻样式1*/
 .rili{}
@@ -626,11 +632,12 @@ a:hover { color:#095ab5; }
 .article .entry .read table{margin:0 auto; border:none!important;}
 /**页脚开始**/
 #footer {background: #B6161B;}
-#footer .inner {padding:12px 0px;position:relative;}
+#footer .inner {padding:0.625vw 0px;position:relative;}
 #footer .inner .mod{}
-#footer .inner .foot-left{float:left;padding:12px 0px;margin-top:10px;}
-#footer .inner .foot-right{float:right;margin-top: 12px;}
-#footer .inner p{font-size: 12px;line-height: 21px; font-weight:normal;text-align:left;color: #fff;}
+#footer .inner .foot-left{float:left;padding:0.625vw 0px;margin-top:0.521vw;}
+#footer .inner .foot-right{float:right;margin-top: 0.625vw;}
+#footer .inner p{font-size: 0.625vw;
+	line-height: 1.093vw; font-weight:normal;text-align:left;color: #fff;}
 #footer .inner p span { margin:0 3px; }
 #footer .inner .copyright{}
 #footer .inner .copyright span{}
@@ -754,18 +761,20 @@ a:hover { color:#095ab5; }
 }
 
 .footlinks > div {
-    margin-top: 25px;
+    margin-top: 1.302vw;
 }
 
 .img-responsive
 {
-	display:block;height:auto;max-width:100%
+	display:block;
+	height:4.531vw;
+	max-width:100%
 }
 
 #content{
-	width:64.6%;
-	height:530px;
-	margin-top:20px;
+	width:64.6vw;
+	height:27.6vw;
+	margin-top:1.042vw;
 }
 
 #contentbg{
@@ -785,34 +794,34 @@ a:hover { color:#095ab5; }
 }
 
 #mainPageContentTop .body1{
-	width: 64.6%;
+	width: 64.6vw;
 	height: auto;
 	margin: 0 auto;
-	margin-top:300px;
+	margin-top:17.625vw;
 }
 
 #mainPageContentBottom .body2{
-	width: 64.6%;
+	width: 64.6vw;
 	height: auto;
 	margin: 0 auto;
-	margin-top:45px;
+	margin-top:2.343vw;
 }
 
 #mynav{
-	width:64.6%;
-	height:64px;
+	width:64.6vw;
+	height:3.333vw;
 	background-color: rgba(151,0,3,0.55);
 	}
 	
 .mynav{
 	width:100%;
-	height:64px;
+	height:3.333vw;
 	}
 
 .mynavcontent{
 	width:100%;
-	height:64px;
-	margin-top:25px;
+	height:3.333vw;
+	margin-top:1.302vw;
 	}
 
 .mynavcontent table{
@@ -824,17 +833,17 @@ a:hover { color:#095ab5; }
 .mynavcontent table tr td{
 	float:left;
 	width:11.29%;
-	height:64px;
-	line-height:64px;
+	height:3.333vw;
+	line-height:3.333vw;
 	position: relative;
 
 	z-index:200;
 	background: #6D0004;
-	border-radius: 13px;
+	border-radius: 0.677vw;
 
 	font-family: PingFangSC-Medium;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 0.9375vw;
 	letter-spacing: 0;
 	text-align: center;
 	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
@@ -849,7 +858,7 @@ a:hover { color:#095ab5; }
 .mynavcontent table tr td a{
 	color:#FFFFFF;
 	display:block;
-	letter-spacing:2px;
+	letter-spacing:0.1041vw;
 	text-decoration:none;
 	}
 
@@ -864,7 +873,7 @@ a:hover { color:#095ab5; }
 	padding: 0px;
 	width:100%;
 	background-color: rgba(109,0,4,0.69);
-	border-radius: 13px 13px 13px 13px;
+	border-radius: 0.677vw 0.677vw 0.677vw 0.677vw;
 	}
 
 .mynavcontent table tr td:hover ul{
@@ -874,7 +883,7 @@ a:hover { color:#095ab5; }
 .mynavcontent table tr td ul li{
 	text-align:center;
 	background-color: rgba(109,0,4,0.0);
-	border-radius: 0px 0px 13px 13px;
+	border-radius: 0px 0px 0.677vw 0.677vw;
 	}
 
 .mynavcontent table tr td ul li a{
@@ -902,12 +911,12 @@ a:hover { color:#095ab5; }
 }
 
 .news-slider {
-	width:64.6%;
-	height:64px;
-    margin-bottom: 30px;
-	margin-top: 25px;
+	width:64.6vw;
+	height:3.3333vw;
+    margin-bottom: 1.5625vw;
+	margin-top: 1.302vw;
 	z-index:200;
-	border-radius: 5px;
+	border-radius: 0.677vw;
 }
 
 .news-slider .owl-item {
@@ -1027,3 +1036,454 @@ a:hover { color:#095ab5; }
 	width:100%;
 	height:auto;
 }
+
+/**************************通知公告***************************/
+.notice_list { 
+	width: 100%;
+	margin-top: 1.5625vw;
+	list-style-type: none;
+}
+.notice_item{
+	display:block;
+	width: 100%;
+	line-height: 1.771vw;
+	counter-increment: list;
+	font-family: PingFangSC-Regular;
+	font-size: 0.8333vw;
+	color: #333333;
+	letter-spacing: 0;
+	text-align: left;
+}
+.notice_item:before{
+	float: left;
+	content: counter(list);
+	width:1.042vw;
+	height:1.042vw;
+	margin-top: 0.3645vw;
+	margin-right:0.58125vw;
+	line-height: 1.042vw;
+	color: #FFFFFF;
+	font-size: 0.8333vw;
+	letter-spacing: 0;
+	font-family: PingFangSC-Medium;
+	text-align: center;
+	background: #FA6F74;
+	border-radius: 50%;
+}
+
+/**************************快速通道***************************/
+
+.fastPathContainer{
+	float:left;
+	width: 36%;
+	height: 23.39vw;
+	border-radius: 0.6771vw;
+	background: #FCDDDD url("../images/fastBg.png") no-repeat center top;
+	background-size: 100%100%;
+	border: 0;
+	position: relative;
+}
+
+.fastPathContainer .title{
+	float:left;
+	width: 100%;
+	height: 2.552vw;
+	position: absolute;
+	top: 1.5625vw;
+	background-image: linear-gradient(-90deg, #F7DFDF 0%, #FEC8C8 50%, #F7DFDF 100%);
+}
+
+.fastPathContainer .title .icon{
+	float:left;
+	width: 10%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	background: rgba(252,221,221,0);
+}
+
+.fastPathContainer .title .icon img{
+	height: 55%;
+	padding-top:22.5%;
+	padding-bottom:20%;
+}
+
+.fastPathContainer .title .content{
+	float:left;
+	width: 75%;
+	height: 2.552vw;
+	line-height: 2.552vw;
+	background: rgba(252,221,221,0);
+	font-family: PingFangSC-Medium;
+	font-size: 1.146vw;
+	font-weight:bold;
+	color: #9D090D;
+	letter-spacing: 0;
+	text-align: left;
+}
+
+.fastPathContainer .title .moreBtn{
+	float:right;
+	width: 15%;
+	height: 2.552vw;
+	line-height: 2.552vw;
+	text-align: center;
+	background: rgba(252,221,221,0);
+}
+
+.fastPathContainer .title .moreBtn a{
+	font-family: PingFangSC-Regular;
+	font-size: 0.8333vw;
+	color: #EA7477;
+	letter-spacing: 0;
+}
+
+.fastPathContainer .pathList{
+	width: 100%;
+	position: absolute;
+	top: 5.5vw;
+	list-style: none;
+}
+
+.fastPathContainer .pathList .item{
+	float: left;
+	width: auto;
+	height: 2.604vw;
+	line-height: 2.604vw;
+	margin: 0.5208vw 0.2604vw 0.5208vw 0.5208vw;
+	padding: 0px 0.5208vw 0px 0.5208vw;
+	border-radius: 1.302vw;
+	background: #FFFCFC;
+	font-family: PingFangSC-Regular;
+	font-size: 1.116vw;
+	color: #333333;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.fastPathContainer .pathList .item a:hover{
+	color: #9D090D;
+}
+
+.fastPathContainer .projProgress{
+	width: 100%;
+	position: absolute;
+	top: 14vw;
+	background: rgba(252,221,221,0);
+}
+
+.fastPathContainer .projProgress .container{
+	position: relative;
+	background: rgba(252,221,221,0);
+}
+
+.fastPathContainer .leftCon{
+	float: left;
+	width: 6.823vw;
+	height: 6.667vw;
+	position: absolute;
+	z-index: 10;
+	left: 0.5208vw;
+	background: #FFFCFC;
+	border-radius: 25px;
+}
+
+.fastPathContainer .rightCon{
+	float: left;
+	width: 15.45vw;
+	height: 6.467vw;
+	line-height: 6.567vw;
+	position: absolute;
+	z-index: 1;
+	left: 6.3vw;
+	top: 0.2vw;
+	background: #FCDDDD;
+	text-align:center;
+	border-radius: 0px 15px 15px 0px;
+}
+
+.fastPathContainer .leftCon .name{
+	width: 100%;
+	font-family: PingFangSC-Regular;
+	margin-top: 1.979vw;
+	font-size: 1.116vw;
+	color: #333333;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.fastPathContainer .leftCon .moreBtn{
+	width: 100%;
+	margin-top: 1.823vw;
+	text-align: center;
+}
+
+.fastPathContainer .leftCon .moreBtn a{
+	font-family: PingFangSC-Regular;
+	font-size: 0.8333vw;
+	color: #EA7477;
+	letter-spacing: 0;
+}
+
+.fastPathContainer .rightCon .progressList{
+	width: 100%;
+	height: 100%;
+	padding-left: 1.5vw;
+	padding-top: 0.3vw;
+	padding-bottom: 0.1vw;
+	list-style: none;
+}
+
+.fastPathContainer .rightCon .progressList li{
+	text-align: left;
+	height: 20%;
+	line-height: 1.616vw;
+}
+
+.fastPathContainer .rightCon .progressList li a{
+	font-family: PingFangSC-Regular;
+	font-size: 0.7291vw;
+	color: #666666;
+	letter-spacing: 0;
+}
+
+.fastPathContainer .rightCon .progressList li a:hover{
+	color:#9D090D;
+}
+
+/**************************课题设置***************************/
+
+.topicSettingContainer{
+	float:left;
+	width: 30%;
+	height: 23.39vw;
+	border-radius: 0.6771vw;
+	background: #FDF9F9;
+	border: 0;
+	position: relative;
+	margin: 0 2% 1.5625vw 2%;
+}
+
+.topicSettingContainer .title{
+	float:left;
+	width: 100%;
+	height: 2.552vw;
+	position: absolute;
+	top: 1.5625vw;
+	background-image: linear-gradient(-90deg, #F7DFDF 0%, #FEC8C8 50%, #F7DFDF 100%);
+}
+
+.topicSettingContainer .title .icon{
+	float:left;
+	width: 10%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	background: rgba(252,221,221,0);
+}
+
+.topicSettingContainer .title .icon img{
+	height: 50%;
+	padding-top:30%;
+	padding-bottom:20%;
+}
+
+.topicSettingContainer .title .content{
+	float:left;
+	width: 75%;
+	height: 2.552vw;
+	line-height: 2.552vw;
+	background: rgba(252,221,221,0);
+	font-family: PingFangSC-Medium;
+	font-size: 1.146vw;
+	font-weight:bold;
+	color: #9D090D;
+	letter-spacing: 0;
+	text-align: left;
+}
+
+.topicSettingContainer .title .content .name{
+	margin-left: 0.2604vw;
+}
+
+.topicSettingContainer .title .moreBtn{
+	float:right;
+	width: 15%;
+	height: 2.552vw;
+	line-height: 2.552vw;
+	text-align: center;
+	background: rgba(252,221,221,0);
+}
+
+.topicSettingContainer .title .moreBtn a{
+	font-family: PingFangSC-Regular;
+	font-size: 0.8333vw;
+	color: #EA7477;
+	letter-spacing: 0;
+}
+
+.topicSettingContainer .topicList{
+	width:91%;
+	list-style-type: disc;
+	position: absolute;
+	top: 5vw;
+	margin:0 auto;
+	left: 7%;
+}
+
+.topicSettingContainer .topicList li{
+	text-align: left;
+	height: 20%;
+	line-height: 1.616vw;
+}
+
+.topicSettingContainer .topicList li a{
+	font-family: PingFangSC-Regular;
+	font-size: 0.8333vw;
+	color: #333333;
+	letter-spacing: 0;
+}
+
+.topicSettingContainer .topicList li a:hover{
+	color:#9D090D;
+}
+
+/**************************项目管理***************************/
+
+.projMgrContainer{
+	float:left;
+	width: 30%;
+	height: 23.39vw;
+	border-radius: 0.6771vw;
+	background: #FDF9F9;
+	border: 0;
+	position: relative;
+}
+
+.projMgrContainer .title{
+	float:left;
+	width: 100%;
+	height: 2.552vw;
+	position: absolute;
+	top: 1.5625vw;
+	background-image: linear-gradient(-90deg, #F7DFDF 0%, #FEC8C8 50%, #F7DFDF 100%);
+}
+
+.projMgrContainer .title .icon{
+	float:left;
+	width: 10%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	background: rgba(252,221,221,0);
+}
+
+.projMgrContainer .title .icon img{
+	height: 50%;
+	padding-top:30%;
+	padding-bottom:20%;
+}
+
+.projMgrContainer .title .content{
+	float:left;
+	width: 75%;
+	height: 2.552vw;
+	line-height: 2.552vw;
+	background: rgba(252,221,221,0);
+	font-family: PingFangSC-Medium;
+	font-size: 1.146vw;
+	font-weight:bold;
+	color: #9D090D;
+	letter-spacing: 0;
+	text-align: left;
+}
+
+.projMgrContainer .title .content .name{
+	margin-left: 0.2604vw;
+}
+
+.projMgrContainer .title .moreBtn{
+	float:right;
+	width: 15%;
+	height: 2.552vw;
+	line-height: 2.552vw;
+	text-align: center;
+	background: rgba(252,221,221,0);
+}
+
+.projMgrContainer .title .moreBtn a{
+	font-family: PingFangSC-Regular;
+	font-size: 0.8333vw;
+	color: #EA7477;
+	letter-spacing: 0;
+}
+
+.projMgrContainer .mgrList {
+	width: 95%;
+	position: absolute;
+	top: 5vw;
+	left: 1vw;
+	background: rgba(252,221,221,0);
+	list-style-type: none;
+}
+
+.projMgrContainer .mgrList li{
+	width:100%;
+	text-align: left;
+}
+
+.projMgrContainer .mgrList li .mgrEntry{
+	width:100%;
+	height:3.75vw;
+	margin-bottom: 1vw;
+}
+
+.projMgrContainer .mgrList li .mgrEntry .date{
+	float:left;
+	width:3.75vw;
+	height:auto;
+	background: rgba(252,221,221,0);
+}
+
+.projMgrContainer .mgrList li .mgrEntry .name a{
+	float:left;
+	font-family: PingFangSC-Regular;
+	font-size: 1.042vw;
+	color: #333333;
+	letter-spacing: 0;
+	text-align: left;
+	padding-left: 0.5vw;
+	padding-top: 0.3vw;
+}
+
+.projMgrContainer .mgrList li .mgrEntry .name a:hover{
+	color: #9D090D;
+}
+
+.projMgrContainer .mgrList li .mgrEntry .date .day{
+	width:100%;
+	height:1.979vw;
+	line-height: 1.979vw;
+	background: #FDCDCD;
+	border-radius: 0.104vw;
+	font-family: PingFangSC-Medium;
+	font-size: 1.25vw;
+	color: #9D090D;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.projMgrContainer .mgrList li .mgrEntry .date .monthYear{
+	width:100%;
+	height:1.771vw;
+	line-height: 1.771vw;
+	background: #FCDDDD;
+	border-radius: 0.104vw;
+	font-family: PingFangSC-Regular;
+	font-size: 0.8333vw;
+	color: #D39E9E;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+

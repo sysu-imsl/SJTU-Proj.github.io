@@ -2,7 +2,7 @@
 .dtjt9_div_img{
     position:relative;
     overflow:hidden;
-    border-radius: 13px;
+    border-radius: 0.6771vw;
 }
 .dtjt9_div_img img{
     display:block;
@@ -18,29 +18,29 @@
 .dtjt9_div_text .dtjt9_div_text_title{
     background:rgba(0,0,0,0.50);
     text-align:left;
-    height:35px;
+    height:1.823vw;
     padding-left: 5%;
-    border-bottom-left-radius: 13px;
-    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 0.6771vw;
+    border-bottom-right-radius: 0.6771vw;
 }
 .dtjt9_div_text a{
     font-family: PingFangSC-Regular;
     font-size:14px;
-    line-height:35px;
+    line-height:1.823vw;
     color:#FFF;
     text-decoration: none;
 }
 .dtjt9_div_text a:link{
     font-family: PingFangSC-Regular;
-    font-size:14px;
-    line-height:35px;
+    font-size:0.7292vw;
+    line-height:1.823vw;
     color:#FFF;
     text-decoration: none;
 }
 .dtjt9_div_text a:visited{
-    font-size:14px;
+    font-size:0.7292vw;
     font-weight:bold;
-    line-height:35px;
+    line-height:1.823vw;
     color:#000;
     text-decoration: none;
 }
@@ -49,37 +49,37 @@
 }
 .dtjt9_div_img .number{
     position:absolute;
-    right:5px;
-    bottom:37px;
+    right:0.2604vw;
+    bottom:1.927vw;
     z-index:100;
 }
 .dtjt9_div_img .number .nomal{
-    width:16px;
-    height:16px;
-    line-height:16px;
+    width:0.8333vw;
+    height:0.8333vw;
+    line-height:0.8333vw;
     display:block;
     text-align:center;
     opacity: 0.7;
     background:#6C6D6E;
     float:left;
     color:#FFF;
-    margin-right:5px;
+    margin-right:0.2604vw;
     border:1px solid #FFF;
-    font-size:12px;
+    font-size:0.625vw;
     TEXT-DECORATION:none
 }
 .dtjt9_div_img .number .current{
-    width:16px;
-    height:16px;
-    line-height:16px;
+    width:0.8333vw;
+    height:0.8333vw;
+    line-height:0.8333vw;
     display:block;
     text-align:center;
     opacity: 0.7;
     background:red;
     float:left;
     color:#FFF;
-    margin-right:5px;
+    margin-right:0.2604vw;
     border:1px solid #FFF;
-    font-size:12px;
+    font-size:0.625vw;
     TEXT-DECORATION:none
 }
