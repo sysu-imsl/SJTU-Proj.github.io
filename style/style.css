@@ -804,7 +804,7 @@ a:hover { color:#095ab5; }
 	width: 64.6vw;
 	height: auto;
 	margin: 0 auto;
-	margin-top:2.343vw;
+	margin-top: 2.343vw;
 }
 
 #mynav{
@@ -1041,6 +1041,7 @@ a:hover { color:#095ab5; }
 .notice_list { 
 	width: 100%;
 	margin-top: 1.5625vw;
+	margin-bottom: 1.5625vw;
 	list-style-type: none;
 }
 .notice_item{
@@ -1077,6 +1078,7 @@ a:hover { color:#095ab5; }
 	float:left;
 	width: 36%;
 	height: 23.39vw;
+	margin-bottom: 2.343vw;
 	border-radius: 0.6771vw;
 	background: #FCDDDD url("../images/fastBg.png") no-repeat center top;
 	background-size: 100%100%;
