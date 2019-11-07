@@ -130,69 +130,10 @@ a:hover { color:#095ab5; }
 .main4 .ml{float:left; width:580px;}
 .main4 .mr{float:right;padding-top:25px;}
 .main4 .mr .mlink{}
-/**标题栏新闻窗口**/
-.post { 
-	margin-bottom:10px;
- }
-/**标题栏**/
-.post .tt {
-	display:inline-block;
-	width:100%;
-	border-bottom: 0px solid #e6e6e6;
-}
-/**标题字体**/
-.post .tt .tit {
-	display:inline-block;
-	float:left;
-	font-size: 16px;
-	font-weight:normal;
-}
-.post .tt .tit .title {
-	display:block;
-	line-height: 42px;
-	color: #424242;
-	font-family:"Microsoft yahei";
-}
-/*栏目别名*/
-.post .tt .tit .name{ 
-	display:none; 
-	line-height:16px; 
-	color:#333; 
-}
-.post .con { 
-	padding: 6px 0;
-	 margin:0 auto;
-	 }
-.post .con .wp_article_list .list_item { 
-	border-bottom:1px dashed #ccc;
- } /**新闻列表**/
-.post .con .wp_article_list .list_item .Article_Index { 
-	background:url("li.gif") no-repeat center;
- }
-.post .more_btn {
-	display:inline-block;
-	*display:inline; 
-	*zoom:1; 
-	height: 20px;
-	margin-top: 10px;
-	line-height: 20px;
-	float:right;
-}
-.post .more_btn .more_text,.post .more_btn a {
-	font-size:13px;
-	 cursor:pointer;
-	} 
-.post .more_btn a{
-	color:#EA7477;
-} 
-.post .more_btn a:hover{
-	color:#EA7477;
-} 
 
 .post1 {
 	float:left;
 	width: 36%;
-	margin-bottom: 1.5625vw;
 }
 .post1 .tt {
 	float:left;
@@ -240,7 +181,7 @@ a:hover { color:#095ab5; }
 .postNews {
 	float:left;
 	width: 30%;
-	margin: 0 2% 1.5625vw 2%;
+	margin: 0 2% 2.4625vw 2%;
 }
 .postNews .tt {
 	float:left;
@@ -292,7 +233,6 @@ a:hover { color:#095ab5; }
 .postNotice {
 	float:left;
 	width: 30%;
-	margin: 0 0 1.5625vw 0;
 }
 .postNotice .tt {
 	float:left;
@@ -301,7 +241,7 @@ a:hover { color:#095ab5; }
 }
 .postNotice .tt .icon{
 	float:left;
-	width:1.042vw;
+	width:1.542vw;
 	height:1.042vw;
 	overflow: hidden;
 	letter-spacing: 0;
@@ -910,126 +850,6 @@ a:hover { color:#095ab5; }
 	margin-right:auto;
 }
 
-.news-slider {
-	width:64.6vw;
-	height:3.3333vw;
-    margin-bottom: 1.5625vw;
-	margin-top: 1.302vw;
-	z-index:200;
-	border-radius: 0.677vw;
-}
-
-.news-slider .owl-item {
-    animation-duration: 1.5s;
-    animation-fill-mode: both;
-    animation-name: fadeOut;
-}
-
-.news-slider .owl-item.active {
-    position: relative;
-    top: 0;
-    animation-name: zoomIn;
-    overflow: hidden;
-}
-
-.news-slider .item a:hover {
-    transform: scale(1);
-}
-
-.news-slider .item a img {
-    -webkit-transition: -webkit-transform 0.6s ease-in-out;
-	transition: transform 0.6s ease-in-out;
-	width:100%;
-	height:100%;
-}
-
-.news-slider .item a:hover img {
-    transform: scale(1.02);
-}
-
-.news-slider .title {
-    width: 100%;
-    height: 100%;
-    background: url(../img/NewSliderBG.png);
-    background-size: cover;
-    color: #fff;
-    padding: 30px 30px 0 30px;
-}
-.news-slider .title2 {
-    width: 100%;
-    height: 100%;
-    background: url(../img/sliderBG@2x.jpg);
-    background-size: cover;
-    color: #fff;
-    padding: 30px 18px 0 18px;
-}
-
-.news-slider .title h4 {
-    position: relative;
-    margin: 0;
-    line-height: 30px;
-    padding-top: 36px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    text-align: justify;
-    color: #fff;
-    font-weight: 900;
-    border-bottom: 1px dashed #fff;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 30);
-}
-
-.news-slider .title h4 p {
-    height: 90px;
-    margin-bottom: 0;
-    font-size: 20px;
-    color: #fff !important;
-    text-align: center;
-}
-.news-slider .title h4 p span {
-    display: block;
-    text-align: center;
-}
-.news-slider .title .des {
-    width: 80%;
-    height: 50px;
-    line-height: 25px;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff !important;
-}
-
-.news-slider .owl-dots {
-    position: absolute;
-    bottom: 10px;
-    right: 0;
-    width: 33.33333%;
-    margin-top: 0 !important;
-}
-
-.news-slider .owl-dot span {
-    background-color: #fff !important;
-}
-
-.news-slider .owl-dot.active span:after,
-.news-slider .owl-dot:hover span:after {
-    border-color: #fff !important;
-}
-
-.item a img {
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
-	transition: transform 0.2s ease-in-out;
-}
-
-.item a:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.item a:hover p {
-    color: #d0021b;
-}
-
 .newsBanner{
 	position:relative;
 	overflow:hidden;
@@ -1041,7 +861,6 @@ a:hover { color:#095ab5; }
 .notice_list { 
 	width: 100%;
 	margin-top: 1.5625vw;
-	margin-bottom: 1.5625vw;
 	list-style-type: none;
 }
 .notice_item{
@@ -1489,3 +1308,329 @@ a:hover { color:#095ab5; }
 }
 
 
+/************************************图片滑动*****************************/
+
+.news-slider {
+	width:64.6vw;
+	height: 20.78vw;
+	margin-top: 1.302vw;
+	margin: 1.302vw auto 0 auto;
+	z-index:200;
+	border-radius: 0.677vw;
+}
+.news-slider .item a:hover {
+    transform: scale(1);
+}
+.news-slider .item a img {
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+	transition: transform 0.6s ease-in-out;
+	width:100%;
+	height:100%;
+}
+.news-slider .item a:hover img {
+    transform: scale(1.02);
+}
+.news-slider .title {
+    width: 100%;
+    height: 100%;
+    background: url(../img/NewSliderBG.png);
+    background-size: cover;
+    color: #fff;
+    padding: 30px 30px 0 30px;
+}
+.news-slider .title2 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/sliderBG@2x.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 30px 18px 0 18px;
+}
+.news-slider .title h4 {
+    position: relative;
+    margin: 0;
+    line-height: 30px;
+    padding-top: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #fff;
+    font-weight: 900;
+    border-bottom: 1px dashed #fff;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 30);
+}
+.news-slider .title h4 p {
+    height: 90px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #fff !important;
+    text-align: center;
+}
+.news-slider .title h4 p span {
+    display: block;
+    text-align: center;
+}
+.news-slider .title .des {
+    width: 80%;
+    height: 50px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff !important;
+}
+.news-slider .owl-dots {
+    position: absolute;
+    bottom: 2vw;
+	margin-top: 0 !important;
+}
+/* .news-slider .owl-dot span {
+    background-color: #fff !important;
+}
+.news-slider .owl-dot.active span:after,
+.news-slider .owl-dot:hover span:after {
+    border-color: #fff !important;
+} */
+
+.item a img {
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+}
+
+.item a:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.item a:hover p {
+    color: #d0021b;
+}
+
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel {
+  display: none;
+  /* -webkit-tap-highlight-color: transparent; */
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; 
+}
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    -moz-backface-visibility: hidden;
+	/* fix firefox animation glitch */ 
+}
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+	height: 0; 
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    /* fix for flashing background */
+	-webkit-transform: translate3d(0px, 0px, 0px); 
+}
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0); 
+}
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none; 
+}
+.owl-carousel .owl-item img {
+    display: block;
+	width: 100%; 
+}
+/* .owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+	display: none; 
+} */
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none; 
+}
+.owl-carousel.owl-loaded {
+	display: block; 
+}
+.owl-carousel.owl-loading {
+    opacity: 0;
+	display: block; 
+}
+.owl-carousel.owl-hidden {
+	opacity: 0; 
+}
+.owl-carousel.owl-refresh .owl-item {
+	visibility: hidden; 
+}
+.owl-carousel.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none; 
+}
+.owl-carousel.owl-grab {
+    cursor: move;
+	cursor: grab; 
+}
+.owl-carousel.owl-rtl {
+	direction: rtl; 
+}
+.owl-carousel.owl-rtl .owl-item {
+	float: right; 
+}
+
+/* No Js */
+.no-js .owl-carousel {
+  display: block; 
+}
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+.owl-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both; 
+}
+
+.owl-carousel .owl-animated-in {
+  z-index: 100; 
+}
+
+.owl-carousel .owl-animated-out {
+  z-index: 101; 
+}
+
+.owl-carousel .fadeOut {
+  animation-name: fadeOut; 
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+	opacity: 0; } 
+}
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl-height {
+  transition: height 500ms ease-in-out; 
+}
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity 400ms ease; 
+}
+
+.owl-carousel .owl-item img.owl-lazy {
+  transform-style: preserve-3d; 
+}
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000; 
+}
+
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease; 
+}
+
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+	  transform: scale(1.3, 1.3); 
+}
+
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none; 
+}
+
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease; 
+}
+
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; 
+}
+
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+  
+.owl-theme .owl-dots {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 0.2804vw;
+}
+  
+.owl-theme .owl-dots .owl-dot {
+	display: inline-block;
+	padding-right: 0.5208vw;
+}
+  
+.owl-theme .owl-dots .owl-dot span {
+	position: relative;
+	width: 1.6146vw;
+	height: 100%;
+	display: block;
+	border-radius: 0.2604vw;
+	background: rgba(255,255,255,0.70);
+	border: 2px solid rgba(255,255,255,0.70);
+}
+  
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	border: 2px solid #B21419;
+	border-radius: 0.2604vw;
+}

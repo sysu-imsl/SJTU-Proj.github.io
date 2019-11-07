@@ -65,3 +65,30 @@ $(function(){
 	});
 
 });
+
+var Main = (function() {
+    "use strict";
+
+    var OwlCarousel = function() {
+        if ($(".news-slider").length) {
+            $(".news-slider").owlCarousel({
+                items: 1,
+                margin: 0,
+                stagePadding: 0,
+                smartSpeed: 1000,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                nav: false,
+                dots: true
+            });
+        }
+    };
+
+    return {
+        init: function() {
+            OwlCarousel();
+        }
+    };
+})();
