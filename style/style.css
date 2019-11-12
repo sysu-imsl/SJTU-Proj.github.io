@@ -1524,7 +1524,7 @@ a:hover { color:#095ab5; }
 	background:none;
 
 	font-family: PingFangSC-Medium;
-	font-size: 18px;
+	font-size: 0.9375vw;
 	color: #333333;
 	letter-spacing: 0;
 	text-align: left;
@@ -1550,8 +1550,8 @@ a:hover { color:#095ab5; }
 }
 
 .subPageBodyWrapper .content .leftBar ul li:last-child{
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 0.2604vw;
+	border-bottom-right-radius: 0.2604vw;
 }
 
 .subPageBodyWrapper .content .rightContent .articleLine{
@@ -1597,7 +1597,7 @@ a:hover { color:#095ab5; }
 
 .subPageBodyWrapper .content .rightContent .articleLine .location li a{
 	font-family: PingFangSC-Medium;
-	font-size: 16px;
+	font-size: 0.8333vw;
 	color: #333333;
 	letter-spacing: 0;
 	text-align: center;
@@ -1612,5 +1612,5 @@ a:hover { color:#095ab5; }
 	font-family: PingFangSC-Medium;
 	text-indent:2em;
 	text-align:left;
-	font-size:18px;
+	font-size:0.9375vw;
 }
