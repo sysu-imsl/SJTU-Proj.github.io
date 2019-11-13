@@ -27,6 +27,7 @@
   <script type="text/javascript" src="js/picbase2.js"></script> 
   <script type="text/javascript" src="js/extends.js"></script> 
   <script type="text/javascript" src="js/jquery.datepicker.js"></script> 
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script> 
   <link rel="stylesheet" href="style/style.css" type="text/css" /> 
   <link rel="stylesheet" href="style/mobile.css" type="text/css" /> 
   <link rel="stylesheet" href="style/media.css" type="text/css" /> 
@@ -34,181 +35,139 @@
 <script src="html5.js"  ></script>
 <![endif]--> 
  </head> 
- <body class="main"> 
-  <!--Start||headTop--> 
-  <div class="wrapper headtop" id="headtop"> 
-   <div class="inner"> 
-    <div class="mod clearfix"> 
-     <!--头部信息--> 
-     <div class="top-left"> 
-      <div class="site-rale" frag="窗口04"> 
-      </div> 
-     </div> 
-     <div class="top-right"> 
-      <div class="site-lang" frag="窗口05"> 
-      </div> 
+ <body> 
+  <div class="headerWrapper"> 
+   <div class="headerContent"> 
+    <!-- logo --> 
+    <div class="logo"> 
+     <div class="picture"></div> 
+    </div> 
+    <!-- menu --> 
+    <div class="mynav"> 
+     <div class="mynavcontent"> 
+      <table class="wp-menu" data-nav-aside="{&quot;title&quot;:&quot;导航&quot;,&quot;index&quot;:0}"> 
+       <tbody> 
+        <tr> 
+         <td> <a title="首页" href="index.html" target="_self">首页</a> </td> 
+         <td> <a title="项目简介" href="abstract.html" target="_self">项目简介</a> <em class="menu-switch-arrow"></em> 
+          <ul style="list-style: none;"> 
+           <li><a title="项目简介" href="abstract.html" target="_self">项目简介</a></li> 
+           <li><a title="课题设置" href="topic.html" target="_self">课题设置</a></li> 
+          </ul> </td> 
+         <td> <a title="研究团队" href="startingMetting.html" target="_self">研究团队</a> <em class="menu-switch-arrow"></em> 
+          <ul style="list-style: none;"> 
+           <li><a title="项目启动会专家" href="startingMetting.html" target="_self">项目启动会专家</a></li> 
+           <li><a title="项目负责人" href="director.html" target="_self">项目负责人</a></li> 
+           <li><a title="课题长" href="topicLeader.html" target="_self">课题长</a></li> 
+          </ul> </td> 
+         <td> <a title="项目动态" href="notice.html" target="_self">项目动态</a> <em class="menu-switch-arrow"></em> 
+          <ul style="list-style: none;"> 
+           <li><a title="通知公告" href="notice.html" target="_self">通知公告</a></li> 
+           <li><a title="项目简报" href="briefing.html" target="_self">项目简报</a></li> 
+           <li><a title="项目新闻" href="news.html" target="_self">项目新闻</a></li> 
+           <li><a title="学术交流" href="academicDiscussion.html" target="_self">学术交流</a></li> 
+           <li><a title="项目管理" href="projMgr.html" target="_self">项目管理</a></li>
+          </ul> </td> 
+         <td> <a title="项目进展" href="topic1.html" target="_self">项目进展</a> <em class="menu-switch-arrow"></em> 
+          <ul style="list-style: none;"> 
+           <li><a title="课题组一" href="topic1.html" target="_self">课题组一</a></li> 
+           <li><a title="课题组二" href="topic2.html" target="_self">课题组二</a></li> 
+           <li><a title="课题组三" href="topic3.html" target="_self">课题组三</a></li> 
+           <li><a title="课题组四" href="topic4.html" target="_self">课题组四</a></li> 
+           <li><a title="课题组五" href="topic5.html" target="_self">课题组五</a></li> 
+           <li><a title="课题组六" href="topic6.html" target="_self">课题组六</a></li> 
+          </ul> </td> 
+         <td><a title="研究成果" href="papers.html" target="_self">研究成果</a> <em class="menu-switch-arrow"></em> 
+          <ul style="list-style: none;"> 
+           <li><a title="论文发表" href="papers.html" target="_self">论文发表</a></li> 
+           <li><a title="专著" href="monograph.html" target="_self">专著</a></li> 
+           <li><a title="专利" href="patent.html" target="_self">专利</a></li> 
+          </ul> </td> 
+         <td><a title="行业动态" href="actions.html" target="_self">行业动态</a> </td> 
+         <td><a title="联系我们" href="contact.html" target="_self">联系我们</a> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
      </div> 
     </div> 
    </div> 
   </div> 
-  <!--End||headTop--> 
-  <!--Start||head--> 
-  <div class="wrapper header" id="header"> 
-   <div class="inner"> 
-    <div class="mod clearfix"> 
-     <a class="navi-aside-toggle"></a> 
-     <div class="head-left" frag="面板01"> 
-      <!--logo开始--> 
-      <div class="sitelogo" frag="窗口01" portletmode="simpleSiteAttri"> 
-       <a href="index.html" title="返回项目网站首页"><img border="0" src="images/logo.png" /></a> 
-      </div> 
-      <!--//logo结束--> 
-     </div> 
+
+  <!-- content -->
+  <div class="threeLevelArticleWrapper"> 
+    <div class="content">
+      <div class="title">
+        课题1：灾变网络风烟流演化与控风机理
+      </div>
+      <div class="info">
+          发布者：xx&nbsp;&nbsp;&nbsp;&nbsp;发布时间：2019-10-09
+      </div>
+      <div class="article">
+          <p >课题1建立多尺度复杂网络风（烟）流异常演化控风模型，为课题4风井与通风设施爆炸冲击力学响应特性研究提供通风工况模型，为课题2的传感器优化布设提供理论依据，为课题4灾变封闭过程中灾情态势预判提供依据。研究风井防爆门启、闭调控作用下风网风烟流的动态演化规律为课题3井防爆门优化设计提供参考。研究构建风网风流动态演化场-区-网耦合数学模型和数值算法，可为课题5风网实时解算及灾变智能决策平台的建立提供支撑。</p>
+
+          <p style="font-weight: bold;"><span>1</span><span>）研究目标</span></p>
+
+          <p>建立复杂网络条件下灾变风流的逆转、烟气扩散和灾变风流控制模型。构建复杂网络条件下火灾（爆炸）烟流逆退、风流逆转、灾变气体扩散的动态变化理论和数学模型，获取火灾和爆炸灾害动力作用下的风流控制理论和模型；建立突出冲击气流传播的场模型和矿井灾变风流的网络模型，获得突出作用下的矿井风流灾变紊乱规律，阐明突出冲击气流诱致矿井风流灾变机制；建立场-区-网耦合的矿井风网灾变风流动态演化数值灾变模型，揭示灾变时期风流逆转、烟气扩散机理及灾害防控机制。</p>
+
+          <p style="font-weight: bold;"><span>2</span><span>）主要研究内容</span></p>
+
+          <p style="font-weight: bold;"><span>（</span><span>1</span><span>）火灾、爆炸风烟流异常演化特征及控风模型</span></p>
+          <p>矿井火灾、爆炸灾害的影响特征。通过测试和模型实验对瓦斯爆炸、火灾生成灾害气体的特征进行研究。实验测定井下典型可燃材料的烟气生成特性，不同瓦斯浓度和风量条件下灾变气体生成特性，建立热灾害源的动态演化数学模型。</p>
+          <p>矿井火灾、爆炸影响下风网风流的动态演化规律。通过模型实验研究不同风速条件下火灾烟流逆退、风流逆转及瓦斯爆炸热灾变气体扩散的规律，建立热灾害气体运移的理论模型。基于矿井通风网络模拟理论，建立风网风流动态演化数学模型。</p>
+          <p>矿井火灾、爆炸灾害条件下灾变风流控制方法。针对矿井火灾、瓦斯爆炸对通风设施破坏、风网风流的影响特征，研究灾变后风网局部风流控制与调控下的风烟流变化规律和恢复稳定状态的特征参数判断准则。应用动态控制理论和矿井通风优化调节理论，建立火灾、爆炸影响下的风流动态控制理论。</p>
+
+          <p style="font-weight: bold;"><span>（</span><span>2</span><span>）煤岩动力作用冲击扰动及控风模型</span></p>
+          <p>矿井煤与瓦斯突出灾害的影响特征。研究突出煤体卸压瓦斯解吸规律、突出煤量与突出瓦斯量的统计规律、突出煤量与突出瓦斯量之间的关系；建立突出源及相邻分支巷道内突出冲击气流传播的场模型，研究在不同突出强度、不同类型巷道及不同通风条件下冲击气流传播规律以及风流逆转规律；</p>
+          <p>矿井瓦斯突出灾害效应下风网风流的动态演化规律。研究基于瓦斯自然风压和附加动力动态变化下的矿井灾变风流的网络模型；综合突出冲击气流传播及突出瓦斯运移的场模型，研发矿井灾变风流的网络模型，研究突出灾变时期的风网模拟方法以及突出灾变时期矿井风流逆转等风流紊乱规律、临界条件以及瓦斯在风网中的动态分布规律；</p>
+          <p>矿井瓦斯突出灾害条件下的灾变风流控制方法。研发煤岩动力作用扰动的风流灾变实验装置，实验研究突出冲击气流对通风设施破坏、风网风流动态变化的影响规律，研究突出灾变下风网局部风流控制与调控下的风流变化规律和恢复稳定状态的特征参数判断准则，并结合现场典型突出案例对研究结果进行分析验证。</p>
+
+          <p style="font-weight: bold;"><span>（</span><span>3</span><span>）基于时间片段的场-区-网耦合的动态风网解算数值方法</span></p>
+          <p>研究灾害源场模拟的数据和灾害影响区域区模拟（或控制体）的等效网络模拟参数处理技术，基于计算流体动力学理论，确定灾害源场和灾害影响区域的等效边界、风量、风压以及通风阻力等影响参数；构建场-区模拟技术与网络模拟技术的数值解算模型及实现技术，建立场—区—网耦合的动态通风网络数值解算方法。</p>
+          <p style="text-align: center;"><img src="images/fastBg.png"  width="530" height="623" /></p>
+          <p style="text-align: center;font-weight: bold;">图2&nbsp;课题1研究技术路线图</p>
+          <p>矿井瓦斯突出灾害条件下的灾变风流控制方法。研发煤岩动力作用扰动的风流灾变实验装置，实验研究突出冲击气流对通风设施破坏、风网风流动态变化的影响规律，研究突出灾变下风网局部风流控制与调控下的风流变化规律和恢复稳定状态的特征参数判断准则，并结合现场典型突出案例对研究结果进行分析验证。</p>
+
+          <p style="font-weight: bold;"><span>3</span><span>）拟解决的重大科学问题或关键技术</span></p>
+          <p>（1）建立典型多灾源动力强迫风流逆转、烟气扩散和风流控制模型，揭示风流扰动与控风交互下风网多参量场时空演化机制。通过研究矿井火灾、爆炸区域有害产物的热质运移规律、突出煤量与突出瓦斯量间的关系及突出冲击气流诱致矿井风流灾变规律，阐明热害、煤岩动力灾害作用下的通风调控机制及理论。</p>
+          <p>（2）解决近灾源场-区域-网络风烟流传输特性精准刻画难题。基于矿井通风网络稳态流动理论和巷道内风烟流扩散运移规律，构建灾变对全矿井通风影响的多尺度、多场风烟流流动演化数学模型，通过热、冷动力灾变过程场-区-网模型边界条件的无缝衔接解决矿井灾变源三维、近邻灾变源二维和远场一维多尺寸通风耦合模型的有机融合问题，实现矿井灾变微-介-宏观全风网通风动态演化的精准完整描述。</p>
+
+          <p style="font-weight: bold;"><span>4</span><span>）考核指标及评测手段/方法</span></p>
+          <p>（1）提出耦合灾变源的场-区域-网络风烟流解算方法。</p>
+          <p>（2）建立通风异常与应急控风仿真模型。</p>
+          <p>（3）煤岩动力作用灾变时期远程智能控风模型。</p>
+          <p>（4）发表论文23篇，其中SCI/EI 8篇。</p>
+          <p>（5）申请发明专利5项。</p>
+          <p>（6）培养硕士研究生10人，博士研究生4人。</p>
+
+          <p style="font-weight: bold;"><span>4</span><span>）参加单位任务分工</span></p>
+          <p>本课题参加单位共计4个。牵头单位是中国矿业大学（北京），安徽理工大学、北京大学和中国矿业大学是共同承担单位。具体分工如下：</p>
+          <p>中国矿业大学（北京）负责课题的总体设计、技术路线拟定、进度与质量的总体把控，同时承担任务1的部分内容：矿井火灾（爆炸）灾害的影响特征，以及矿井火灾（爆炸）影响下风网风流的动态演化规律；任务2的部分研究内容：矿井瓦斯突出灾害条件下的灾变风流控制方法。</p>
+          <p>安徽理工大学主要承担任务2的部分内容：矿井煤与瓦斯突出灾害的影响特征，以及矿井瓦斯突出灾害效应下风网风流的动态演化规律。</p>
+          <p>北京大学主要承担任务3：基于时间片段的场-区-网耦合的动态风网解算数值方法。</p>
+          <p>中国矿业大学主要承担任务1的部分内容：矿井火灾、爆炸灾害条件下灾变风流控制方法。</p>
+
+      </div>
+    </div>
+  </div> 
+
+  <div class="myfooter"> 
+   <div class="footerContainer"> 
+    <div class="shjtLogo"> 
+     <div class="logo"></div> 
     </div> 
-   </div> 
-  </div> 
-  <!--End||head--> 
-  <!--Start||nav--> 
-  <div class="wrapper nav wp-navi" id="nav"> 
-   <div class="inner clearfix"> 
-    <div class="wp-panel"> 
-     <div class="wp-window" frag="窗口1"> 
-      <div class="navi-slide-head clearfix"> 
-       <h3 class="navi-slide-title">导航</h3> 
-       <a class="navi-slide-arrow"></a> 
-      </div> 
-      <ul class="wp-menu" data-nav-aside="{&quot;title&quot;:&quot;导航&quot;,&quot;index&quot;:0}"> 
-       <li class="menu-item i1"><a class="menu-link" href="index.html" target="_self">首页</a> </li> 
-       <li class="menu-item i2"><a class="menu-link" href="abstract.html" target="_self">项目简介</a> <em class="menu-switch-arrow"></em> 
-        <ul class="sub-menu "> 
-         <li class="sub-item i2-1"><a class="sub-link" href="abstract.html" target="_self">项目简介</a></li> 
-         <li class="sub-item i2-2"><a class="sub-link" href="topic.html" target="_self">课题设置</a></li> 
-        </ul> </li> 
-       <li class="menu-item i3"><a class="menu-link" href="startingMetting.html" target="_self">研究团队</a> <em class="menu-switch-arrow"></em> 
-        <ul class="sub-menu "> 
-         <li class="sub-item i3-1"><a class="sub-link" href="startingMetting.html" target="_self">项目启动会专家</a></li> 
-         <li class="sub-item i3-2"><a class="sub-link" href="director.html" target="_self">项目负责人</a></li> 
-         <li class="sub-item i3-3"><a class="sub-link" href="topicLeader.html" target="_self">课题长</a></li> 
-        </ul> </li> 
-       <li class="menu-item i4"><a class="menu-link" href="notice.html" target="_self">项目动态</a> <em class="menu-switch-arrow"></em> 
-        <ul class="sub-menu "> 
-         <li class="sub-item i4-1"><a class="sub-link" href="notice.html" target="_self">通知公告</a></li> 
-         <li class="sub-item i4-2"><a class="sub-link" href="briefing.html" target="_self">项目简报</a></li> 
-         <li class="sub-item i4-3"><a class="sub-link" href="news.html" target="_self">项目新闻</a></li> 
-         <li class="sub-item i4-4"><a class="sub-link" href="academicDiscussion.html" target="_self">学术交流</a></li> 
-        </ul> </li> 
-       <li class="menu-item i5"><a class="menu-link" href="topic1.html" target="_self">项目进展</a> <em class="menu-switch-arrow"></em> 
-        <ul class="sub-menu "> 
-         <li class="sub-item i5-1"><a class="sub-link" href="topic1.html" target="_self">课题组一</a></li> 
-         <li class="sub-item i5-2"><a class="sub-link" href="topic2.html" target="_self">课题组二</a></li> 
-         <li class="sub-item i5-3"><a class="sub-link" href="topic3.html" target="_self">课题组三</a></li> 
-         <li class="sub-item i5-4"><a class="sub-link" href="topic4.html" target="_self">课题组四</a></li> 
-         <li class="sub-item i5-5"><a class="sub-link" href="topic5.html" target="_self">课题组五</a></li> 
-         <li class="sub-item i5-6"><a class="sub-link" href="topic6.html" target="_self">课题组六</a></li> 
-        </ul> </li> 
-       <li class="menu-item i6"><a class="menu-link" href="papers.html" target="_self">研究成果</a> <em class="menu-switch-arrow"></em> 
-        <ul class="sub-menu "> 
-         <li class="sub-item i6-1"><a class="sub-link" href="papers.html" target="_self">论文发表</a></li> 
-         <li class="sub-item i6-2"><a class="sub-link" href="monograph.html" target="_self">专著</a></li> 
-         <li class="sub-item i6-3"><a class="sub-link" href="patent.html" target="_self">专利</a></li> 
-        </ul> </li> 
-       <li class="menu-item i8"><a class="menu-link" href="actions.html" target="_self">行业动态</a> </li> 
-       <li class="menu-item i9"><a class="menu-link" href="contact.html" target="_self">联系我们</a> </li> 
-      </ul> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
-  <!--aside导航--> 
-  <div class="wp-navi-aside" id="wp-navi-aside"> 
-   <div class="aside-inner"> 
-    <div class="navi-aside-wrap"></div> 
-   </div> 
-   <div class="navi-aside-mask"></div> 
-  </div> 
-  <!--End||nav--> 
-  <!--Start||content--> 
-  <div class="wrapper" id="d-container"> 
-   <div class="inner clearfix"> 
-    <div class="infobox"> 
-     <div class="article" frag="窗口3" portletmode="simpleArticleAttri"> 
-      <h1 class="arti_title">课题1：灾变网络风烟流演化与控风机理</h1> 
-      <h2 class="arti_title"></h2> 
-      <p class="arti_metas"><span class="arti_publisher">发布者：xx</span><span class="arti_update">发布时间：2019-10-09</span><span class="arti_views">浏览次数：<span class="WP_VisitCount" url="/_visitcountdisplay?siteId=363&amp;type=3&amp;articleId=484575">871</span></span></p> 
-      <div class="entry"> 
-       <div class="read">
-        <div class="wp_articlecontent">
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;font-weight:bold;"></span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><br /></p>
-         <p style="font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-size:16px;">课题</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">1</span><span style="font-family:宋体;font-size:16px;">建立多尺度复杂网络风（烟）流异常演化控风模型，为课题</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">4</span><span style="font-family:宋体;font-size:16px;">风井与通风设施爆炸冲击力学响应特性研究提供通风工况模型，为课题</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">2</span><span style="font-family:宋体;font-size:16px;">的传感器优化布设提供理论依据，为课题</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">4</span><span style="font-family:宋体;font-size:16px;">灾变封闭过程中灾情态势预判提供依据。研究风井防爆门启、闭调控作用下风网风烟流的动态演化规律为课题</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">3</span><span style="font-family:宋体;font-size:16px;">井防爆门优化设计提供参考。研究构建风网风流动态演化场</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">区</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">网耦合数学模型和数值算法，可为课题</span><span style="font-family:&quot;times new roman&quot;;font-size:16px;">5</span><span style="font-family:宋体;font-size:16px;">风网实时解算及灾变智能决策平台的建立提供支撑。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:times new roman;font-size:16px;font-weight:bold;">1</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）研究目标</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">建立复杂网络条件下灾变风流的逆转、烟气扩散和灾变风流控制模型。构建复杂网络条件下火灾（爆炸）烟流逆退、风流逆转、灾变气体扩散的动态变化理论和数学模型，获取火灾和爆炸灾害动力作用下的风流控制理论和模型；建立突出冲击气流传播的场模型和矿井灾变风流的网络模型，获得突出作用下的矿井风流灾变紊乱规律，阐明突出冲击气流诱致矿井风流灾变机制；建立场</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">区</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">网耦合的矿井风网灾变风流动态演化数值灾变模型，揭示灾变时期风流逆转、烟气扩散机理及灾害防控机制。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:times new roman;font-size:16px;font-weight:bold;">2</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）主要研究内容</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;font-weight:bold;">（</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">1</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）火灾、爆炸风烟流异常演化特征及控风模型</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">矿井火灾、爆炸灾害的影响特征。通过测试和模型实验对瓦斯爆炸、火灾生成灾害气体的特征进行研究。实验测定井下典型可燃材料的烟气生成特性，不同瓦斯浓度和风量条件下灾变气体生成特性，建立热灾害源的动态演化数学模型。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">矿井火灾、爆炸影响下风网风流的动态演化规律。通过模型实验研究不同风速条件下火灾烟流逆退、风流逆转及瓦斯爆炸热灾变气体扩散的规律，建立热灾害气体运移的理论模型。基于矿井通风网络模拟理论，建立风网风流动态演化数学模型。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">矿井火灾、爆炸灾害条件下灾变风流控制方法。针对矿井火灾、瓦斯爆炸对通风设施破坏、风网风流的影响特征，研究灾变后风网局部风流控制与调控下的风烟流变化规律和恢复稳定状态的特征参数判断准则。应用动态控制理论和矿井通风优化调节理论，建立火灾、爆炸影响下的风流动态控制理论。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;font-weight:bold;">（</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">2</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）煤岩动力作用冲击扰动及控风模型</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">矿井煤与瓦斯突出灾害的影响特征。研究突出煤体卸压瓦斯解吸规律、突出煤量与突出瓦斯量的统计规律、突出煤量与突出瓦斯量之间的关系；建立突出源及相邻分支巷道内突出冲击气流传播的场模型，研究在不同突出强度、不同类型巷道及不同通风条件下冲击气流传播规律以及风流逆转规律；</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">矿井瓦斯突出灾害效应下风网风流的动态演化规律。研究基于瓦斯自然风压和附加动力动态变化下的矿井灾变风流的网络模型；综合突出冲击气流传播及突出瓦斯运移的场模型，研发矿井灾变风流的网络模型，研究突出灾变时期的风网模拟方法以及突出灾变时期矿井风流逆转等风流紊乱规律、临界条件以及瓦斯在风网中的动态分布规律；</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">矿井瓦斯突出灾害条件下的灾变风流控制方法。研发煤岩动力作用扰动的风流灾变实验装置，实验研究突出冲击气流对通风设施破坏、风网风流动态变化的影响规律，研究突出灾变下风网局部风流控制与调控下的风流变化规律和恢复稳定状态的特征参数判断准则，并结合现场典型突出案例对研究结果进行分析验证。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;font-weight:bold;">（</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">3</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）基于时间片段的场</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">-</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">区</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">-</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">网耦合的动态风网解算数值方法</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">研究灾害源场模拟的数据和灾害影响区域区模拟（或控制体）的等效网络模拟参数处理技术，基于计算流体动力学理论，确定灾害源场和灾害影响区域的等效边界、风量、风压以及通风阻力等影响参数；构建场</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">区模拟技术与网络模拟技术的数值解算模型及实现技术，建立场</span><span style="font-family:times new roman;font-size:16px;">—</span><span style="font-family:宋体;font-size:16px;">区</span><span style="font-family:times new roman;font-size:16px;">—</span><span style="font-family:宋体;font-size:16px;">网耦合的动态通风网络数值解算方法。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:center;text-indent:28px;"><img src="a6f47df4-a142-487f-818a-49e848563ab6.png"  width="530" height="623" /></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:center;text-indent:28px;"><span style="font-family:宋体;font-size:16px;font-weight:bold;">图</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">2&nbsp;</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">课题</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">1</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">研究技术路线图</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:times new roman;font-size:16px;font-weight:bold;">3</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）拟解决的重大科学问题或关键技术</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">1</span><span style="font-family:宋体;font-size:16px;">）建立典型多灾源动力强迫风流逆转、烟气扩散和风流控制模型，揭示风流扰动与控风交互下风网多参量场时空演化机制。通过研究矿井火灾、爆炸区域有害产物的热质运移规律、突出煤量与突出瓦斯量间的关系及突出冲击气流诱致矿井风流灾变规律，阐明热害、煤岩动力灾害作用下的通风调控机制及理论。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">2</span><span style="font-family:宋体;font-size:16px;">）解决近灾源场</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">区域</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">网络风烟流传输特性精准刻画难题。基于矿井通风网络稳态流动理论和巷道内风烟流扩散运移规律，构建灾变对全矿井通风影响的多尺度、多场风烟流流动演化数学模型，通过热、冷动力灾变过程场</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">区</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">网模型边界条件的无缝衔接解决矿井灾变源三维、近邻灾变源二维和远场一维多尺寸通风耦合模型的有机融合问题，实现矿井灾变微</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">介</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">宏观全风网通风动态演化的精准完整描述。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:times new roman;font-size:16px;font-weight:bold;">4</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）考核指标及评测手段</span><span style="font-family:times new roman;font-size:16px;font-weight:bold;">/</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">方法</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">1</span><span style="font-family:宋体;font-size:16px;">）提出耦合灾变源的场</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">区域</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">网络风烟流解算方法</span><span style="font-family:宋体;font-size:16px;">。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">2</span><span style="font-family:宋体;font-size:16px;">）建立通风异常与应急控风仿真模型</span><span style="font-family:宋体;font-size:16px;">。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">3</span><span style="font-family:宋体;font-size:16px;">）煤岩动力作用灾变时期远程智能控风模型</span><span style="font-family:宋体;font-size:16px;">。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">4</span><span style="font-family:宋体;font-size:16px;">）发表论文</span><span style="font-family:times new roman;font-size:16px;">23</span><span style="font-family:宋体;font-size:16px;">篇，其中</span><span style="font-family:times new roman;font-size:16px;">SCI/EI 8</span><span style="font-family:宋体;font-size:16px;">篇</span><span style="font-family:宋体;font-size:16px;">。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">5</span><span style="font-family:宋体;font-size:16px;">）申请发明专利</span><span style="font-family:times new roman;font-size:16px;">5</span><span style="font-family:宋体;font-size:16px;">项</span><span style="font-family:宋体;font-size:16px;">。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">（</span><span style="font-family:times new roman;font-size:16px;">6</span><span style="font-family:宋体;font-size:16px;">）培养硕士研究生</span><span style="font-family:times new roman;font-size:16px;">10</span><span style="font-family:宋体;font-size:16px;">人，博士研究生</span><span style="font-family:times new roman;font-size:16px;">4</span><span style="font-family:宋体;font-size:16px;">人。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:times new roman;font-size:16px;font-weight:bold;">5</span><span style="font-family:宋体;font-size:16px;font-weight:bold;">）参加单位任务分工</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">本课题参加单位共计</span><span style="font-family:times new roman;font-size:16px;">4</span><span style="font-family:宋体;font-size:16px;">个。牵头单位是中国矿业大学（北京），安徽理工大学、北京大学和中国矿业大学是共同承担单位。具体分工如下：</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">中国矿业大学（北京）负责课题的总体设计、技术路线拟定、进度与质量的总体把控，同时承担任务</span><span style="font-family:times new roman;font-size:16px;">1</span><span style="font-family:宋体;font-size:16px;">的部分内容：矿井火灾（爆炸）灾害的影响特征，以及矿井火灾（爆炸）影响下风网风流的动态演化规律；任务</span><span style="font-family:times new roman;font-size:16px;">2</span><span style="font-family:宋体;font-size:16px;">的部分研究内容：矿井瓦斯突出灾害条件下的灾变风流控制方法。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">安徽理工大学主要承担任务</span><span style="font-family:times new roman;font-size:16px;">2</span><span style="font-family:宋体;font-size:16px;">的部分内容：矿井煤与瓦斯突出灾害的影响特征，以及矿井瓦斯突出灾害效应下风网风流的动态演化规律。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">北京大学主要承担任务</span><span style="font-family:times new roman;font-size:16px;">3</span><span style="font-family:宋体;font-size:16px;">：基于时间片段的场</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">区</span><span style="font-family:times new roman;font-size:16px;">-</span><span style="font-family:宋体;font-size:16px;">网耦合的动态风网解算数值方法。</span></p>
-         <p style="font-family:microsoft yahei;font-size:16px;line-height:24px;margin:0px;text-align:justify;text-indent:28px;"><span style="font-family:宋体;font-size:16px;">中国矿业大学主要承担任务</span><span style="font-family:times new roman;font-size:16px;">1</span><span style="font-family:宋体;font-size:16px;">的部分内容：矿井火灾、爆炸灾害条件下灾变风流控制方法。</span></p>
-         <p><br /></p>
-        </div>
-       </div> 
-      </div> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
-  <!--End||content--> 
-  <!--Start||footer--> 
-  <div class="wrapper footer" id="footer"> 
-   <div class="inner"> 
-    <div class="mod clearfix"> 
-     <div class="foot-left" frag="窗口90" portletmode="simpleSiteAttri"> 
-      <p class="copyright"><span>版权所有：中山大学数据科学与计算机学院 地址：广东省广州市广州大学城外环东路132号 邮编：510006 </span><span></span></p> 
-      <p class="copyright"><span><a href="javascript:void(0)" target="_blank">中山大学数据科学与计算机学院智能与多媒体科学实验室</a></span></p> 
-     </div> 
-     <div class="foot-right" frag="窗口91"> 
-      <div class="shares"> 
-      </div> 
-     </div> 
+    <div class="cooperationLogo"> 
     </div> 
    </div> 
   </div> 
   <!--End||footer--> 
   <script type="text/javascript" src="js/comcus.js"></script> 
-  <script type="text/javascript" src="js/list.js"></script> 
+  <script type="text/javascript" src="js/main.js"></script> 
   <script type="text/javascript" src="js/app.js"></script> 
-  <script type="text/javascript">
-$(function(){
-	// 初始化SDAPP
-	new SDAPP({
-		"menu":{
-			type:"slide,aside"
-		}
-	});
-});
-</script>  
+  <script>
+      jQuery(document).ready(function () {
+          Main.init();
+      });
+  </script> 
+  <script src="js/index.js"></script>  
  </body>
 </html>

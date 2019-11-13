@@ -52,7 +52,7 @@ body {
 	color:#333;}
 p{line-height:1.75;}
 a {color:#3b3b3b; text-decoration:none; transition:all 0.4s ease-in-out; }
-a:hover { color:#095ab5; }
+a:hover { color:#9D090D; }
 /*页面尺寸*/
 .wrapper { width:100vw; margin:0 auto;  }
 .wrapper .inner {width: 64.6vw;margin:0 auto;} /**页面全局宽度**/
@@ -1613,4 +1613,123 @@ a:hover { color:#095ab5; }
 	text-indent:2em;
 	text-align:left;
 	font-size:0.9375vw;
+	color: #333333;
+}
+
+.subPageBodyWrapper .content .rightContent .itemList{
+	width:100%;
+	height: auto;
+	margin-left: 3vw;
+	list-style-type: disc;
+	margin-top: 2px;
+}
+
+.subPageBodyWrapper .content .rightContent .paging{
+	width:100%;
+	height:3vw;
+	margin-left: 3vw;
+}
+
+.subPageBodyWrapper .content .rightContent .itemList .item{
+	widows: 100%;
+	height: 3vw;
+	line-height: 3vw;
+	margin-left: 0.7vw;
+}
+
+.subPageBodyWrapper .content .rightContent .itemList .item .title{
+	font-family: PingFangSC-Medium;
+	text-align:left;
+	font-size:0.9375vw;
+	color: #333333;
+	float:left;
+}
+
+.subPageBodyWrapper .content .rightContent .itemList .item .title:hover a{
+	color: #9D090D;
+}
+
+.subPageBodyWrapper .content .rightContent .itemList .item .date{
+	font-family: PingFangSC-Medium;
+	text-align:right;
+	font-size: 0.8292vw;
+	color: #9C9C9C;
+	float:right;
+}
+
+.subPageBodyWrapper .content .rightContent .paging ul{
+	list-style-type: none;
+}
+
+.subPageBodyWrapper .content .rightContent .paging ul li{
+	font-family: PingFangSC-Medium;
+	font-size: 0.8333vw;
+	line-height: 3vw;
+	color: #333333;
+	letter-spacing: 0;
+	text-align: center;
+	float:right;
+	margin-left: 0.25vw;
+	margin-right: 0.25vw;
+}
+
+.subPageBodyWrapper .content .rightContent .paging ul li .pageNum{
+	width: 1vw;
+}
+
+.subPageBodyWrapper .content .rightContent .paging ul li .pagingJump{
+
+}
+
+/************************三级文章子页面***************************/
+.threeLevelArticleWrapper{
+	width:100%;
+	height:auto;
+	background: #FFF;
+	margin-top: 1vw;
+	margin-bottom: 3vw;
+}
+
+.threeLevelArticleWrapper .content{
+	width:64.6%;
+	height:auto;
+	background:none;
+	margin: 0 auto;
+}
+
+.threeLevelArticleWrapper .content .title{
+	width:100%;
+	height:3.5vw;
+	line-height: 3.5vw;
+	font-family: PingFangSC-Medium;
+	text-align:center;
+	font-size:1.25vw;
+	color: #9D090D;
+	font-weight: bold;
+}
+
+.threeLevelArticleWrapper .content .info{
+	width:100%;
+	height:2.0vw;
+	line-height:2.0vw;
+	font-family: PingFangSC-Medium;
+	text-align:center;
+	font-size:0.729vw;
+	color: #333;
+}
+
+.threeLevelArticleWrapper .content .article{
+	margin-top: 1vw;
+	width:100%;
+	height:auto;
+
+	font-family: PingFangSC-Medium;
+	color: #333333;
+	font-size: 0.9375vw;
+	letter-spacing: 0;
+	text-align: left;
+}
+
+.threeLevelArticleWrapper .content .article p{
+	text-indent:2em;
 }
